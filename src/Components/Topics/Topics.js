@@ -6,8 +6,8 @@ const Topics = ({ topic }) => {
   const { id, logo, name, total } = topic;
   return (
     <div>
-      <div className="card w-100 bg-slate-50 shadow-xl">
-        <figure className="px-10 pt-10">
+      <div className="card w-100 shadow-xl m-10">
+        <figure className="p-5">
           <img src={logo} alt="logo" className="rounded-xl" />
         </figure>
         <div className="card-body items-center text-center">

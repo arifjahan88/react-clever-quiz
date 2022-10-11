@@ -1,3 +1,14 @@
+# Here What I work in This Project.
+
+1. First I am Create a react app.
+2. Then make main layout so that we use it in every page.
+3. then create the card section and load data which name is topics.js.
+4. then create component so that the quiz questions loaded.
+5. then match value and shows right answer in a toast.
+6. then create statistics route and make a statistical image.
+7. then create blog route and answer three questions.
+8. and lastly make the website responsive.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
