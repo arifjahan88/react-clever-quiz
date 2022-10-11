@@ -3,7 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <div className="mt-10">
-      <div className="grid grid-cols-1 items-center">
+      <div className="grid grid-cols-1 justify-items-center">
         <div className="m-5 bg-slate-200 p-7 rounded-lg lg:w-3/6">
           <h2 className="text-2xl font-mono font-bold text-cyan-700">
             What is the purpose of react router?

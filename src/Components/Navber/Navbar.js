@@ -1,11 +1,10 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="drop-shadow-md">
       <div className="navbar bg-base-100 ">
-        <div className="navbar-start">
+        <div className="navbar-start lg:mb-0 mb-32">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
