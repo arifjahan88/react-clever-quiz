@@ -59,7 +59,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <p className="font-bold text-xl text-emerald-500">Statistics</p>
+              <Link
+                to="/statistics"
+                className="font-bold text-xl text-emerald-500"
+              >
+                Statistics
+              </Link>
             </li>
             <li>
               <p className="font-bold text-xl text-emerald-500">Blog</p>
