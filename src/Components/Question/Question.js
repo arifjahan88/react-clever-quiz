@@ -20,7 +20,7 @@ const Question = ({ datas }) => {
   return (
     <div>
       {datas.map((data) => (
-        <div className="bg-yellow-100 m-4 p-5 rounded-lg">
+        <div className="bg-yellow-100 m-5 p-5 rounded-lg drop-shadow-lg">
           <div className="flex justify-end">
             <button onClick={() => showrightanswer(data)}>
               <svg

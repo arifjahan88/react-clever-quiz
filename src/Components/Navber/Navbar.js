@@ -52,7 +52,7 @@ const Navbar = () => {
             </li>
             <li tabIndex={0}>
               <Link
-                to="/questions/questionID"
+                to="/questions"
                 className="font-bold text-xl text-emerald-500"
               >
                 Questions
@@ -67,7 +67,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <p className="font-bold text-xl text-emerald-500">Blog</p>
+              <Link to="/blog" className="font-bold text-xl text-emerald-500">
+                Blog
+              </Link>
             </li>
           </ul>
         </div>

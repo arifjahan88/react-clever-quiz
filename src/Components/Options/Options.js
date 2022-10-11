@@ -4,7 +4,7 @@ const Options = ({ options, carrectanswer }) => {
   return (
     <div>
       <div className="flex justify-center">
-        <div className="grid lg:grid-cols-2 mt-5">
+        <div className="grid lg:grid-cols-2 mt-5 drop-shadow-lg">
           {options.map((data) => (
             <button
               onClick={() => carrectanswer(data)}
