@@ -1,3 +1,5 @@
+import React from "react";
+import "./Options.css";
 const Options = ({ options, carrectanswer }) => {
   return (
     <div>
@@ -6,7 +8,7 @@ const Options = ({ options, carrectanswer }) => {
           {options.map((data) => (
             <button
               onClick={() => carrectanswer(data)}
-              className="font-mono m-2 px-5 py-3 text-sky-800 text-center   bg-lime-300 rounded-lg "
+              className="make-hover font-mono m-2 px-5 py-3 text-sky-800 text-center bg-lime-300 rounded-lg "
             >
               <div>{data}</div>
             </button>

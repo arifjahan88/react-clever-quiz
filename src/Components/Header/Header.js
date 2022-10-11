@@ -10,10 +10,10 @@ const Header = () => {
         }}
       >
         <div className="hero-overlay bg-opacity-100"></div>
-        <div className="hero-content text-left p-28">
+        <div className="hero-content lg:text-left lg:p-28">
           <div className="text-white">
             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-            <p className="mb-5 text-xl">
+            <p className="mb-5 lg:text-xl">
               It is an app for quizzes. where anyone can take the quiz and pass
               the time. It was created using web development. Here is a list of
               web development-related questions and answers. So, I think
